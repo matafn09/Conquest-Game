@@ -4,16 +4,16 @@
 A single-player logic puzzle built with Java Swing, inspired by LinkedIn's "Queens" game. You place crowns on a grid so that no two crowns share a row, column, or touch diagonally, and each colored region on the board must contain exactly one crown. Solve it, and the puzzle grows to a bigger, harder grid.
 
 ## Technologies Involved
-•	**Java** — the language the whole project is written in
-•	**Swing** — builds the window, header, status label, and reset button
-•	**AWT / Graphics2D** — handles the custom 2D drawing of the grid, colored regions, crowns, and X-markers
+•	**Java**.  The language the whole project is written in
+•	**Swing**. Builds the window, header, status label, and reset button
+•	**AWT / Graphics2D**. Handles the custom 2D drawing of the grid, colored regions, crowns, and X-markers
 
 
 ## Features
 •	Procedurally generated puzzles that are always guaranteed to be solvable
 •	Colored regions that shape each puzzle differently every time
 •	Click-to-cycle cells: empty → crown → X-mark → empty (the X lets you mark "not here" while solving)
-•	Real-time rule checking — conflicts are detected the moment you place a crown
+•	Realtime rule checking — conflicts are detected the moment you place a crown
 •	Win detection with a success popup
 •	Progressive difficulty — each win increases the grid size (up to 9x9)
 •	"New Puzzle" button to reset at any time
