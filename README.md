@@ -24,7 +24,7 @@ The project is split into two responsibilities:
 1. **The window (`ConquestGame`)**, a `JFrame` that holds the header (level display + reset button) and hosts the game canvas.<br>
 2. **The game logic and rendering (`QueensCanvas`)**, a `JPanel` that generates each puzzle, listens for clicks, checks the rules, and draws everything.
 
-Puzzle generation works in two steps. First, the game randomly picks valid crown positions (no two touching, like a solved board) to use as "seeds." Then it flood-fills color outward from each seed, each empty cell has an 80% chance of joining a neighboring region — which is what gives every puzzle its organic, irregular shapes instead of plain uniform squares.
+Puzzle generation works in two steps. First, the game randomly picks valid crown positions (no two touching, like a solved board) to use as "seeds." Then it flood-fills color outward from each seed, each empty cell has an 80% chance of joining a neighboring region, which is what gives every puzzle its organic, irregular shapes instead of plain uniform squares.
 
 Rule-checking happens after every click: the game scans the whole board, confirms no two crowns share a row, column, or diagonal neighbor, and confirms each colored region has exactly one crown, before declaring the puzzle won.
 
