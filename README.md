@@ -37,12 +37,12 @@ Rule-checking happens after every click: the game scans the whole board, confirm
 
 
 ## How It Can Be Improved
-•	Add a timer and scoring system
-•	Add an undo button
-•	Visually highlight exactly which crowns are in conflict, instead of just flagging that one exists
-•	Support more than 9 regions with a larger color palette
-•	Add a hint system for stuck players
-•	Save/resume progress between sessions
+•	Add a timer and scoring system<br>
+•	Add an undo button<br>
+•	Visually highlight exactly which crowns are in conflict, instead of just flagging that one exists<br>
+•	Support more than 9 regions with a larger color palette<br>
+•	Add a hint system for stuck players<br>
+•	Save/resume progress between sessions<br>
 
 
 ## Running the Project
