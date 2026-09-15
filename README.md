@@ -58,6 +58,6 @@ Rule-checking happens after every click: the game scans the whole board, confirm
    ```
 
 ## Demo Video
-<img src="https://raw.githubusercontent.com/matafn09/Chess-game-in-Python/main/Chess-game-vid.gif" width="600" alt="Chess AI Demo">
+<img src="https://raw.githubusercontent.com/matafn09/Conquest-Game/main/Conquest_game_vid.gif" width="600" alt="Conquest Game Demo">
 ---
 ⭐️ A project by [Fernand Mata](https://github.com/matafn09)
