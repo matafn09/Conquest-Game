@@ -1,6 +1,6 @@
 # 👑 Conquest. A Queens Puzzle Game
 
-## What It Is
+## What is it?
 A single-player logic puzzle built with Java Swing, inspired by LinkedIn's "Queens" game. You place crowns on a grid so that no two crowns share a row, column, or touch diagonally, and each colored region on the board must contain exactly one crown. Solve it, and the puzzle grows to a bigger, harder grid.
 
 ## Technologies Involved
